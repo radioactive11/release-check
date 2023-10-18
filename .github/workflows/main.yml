@@ -19,4 +19,4 @@ jobs:
         GITHUB_TOKEN: ${{ github.token }}
       with:
         title: ${{ github.event.pull_request.title }}
-        body: ${{ github.event.pull_request.body }}
+
